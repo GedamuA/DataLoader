@@ -1,3 +1,6 @@
+# Gedam A. 2020-01-17
+# Center for future media lab 
+# UESTC, chengdu china  
 import tensorflow as tf
 import numpy as np
 import os
