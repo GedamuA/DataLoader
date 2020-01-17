@@ -1,3 +1,6 @@
+"""
+# Gedamu A.  2019/11/13
+# Center for future media lab 
 import tensorflow as tf
 import numpy as np
 import os
@@ -6,9 +9,9 @@ import cv2
 
 train_batch = 16
 # Dataset Path
-input_path1 = "/home/gede/VcGAN/Dataset/Train_image/"
-test_path = "/home/gede/VcGAN/Dataset/ForTest/"
-input_path2 = "/home/gede/VcGAN/Dataset/ForTrain/"
+input_path1 = "/home/Gede/VcGAN/Dataset/Train_image/"
+test_path = "/home/Gede/VcGAN/Dataset/ForTest/"
+input_path2 = "/home/Gede/VcGAN/Dataset/ForTrain/"
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
