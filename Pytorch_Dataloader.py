@@ -1,3 +1,6 @@
+# Gedamu A.
+# Center for Future Media
+# UESTC
 import os, sys
 from os import listdir
 from os.path import join, isfile
